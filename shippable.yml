@@ -1,8 +1,11 @@
 language: c
 
+runtime:
+  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
+  
 compiler:
-  - gcc #8.1.0
-  - clang #7.0.0
+  - gcc #7.2
+  - clang #5.0.1
   
 build: 
 
