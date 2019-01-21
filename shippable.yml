@@ -5,12 +5,12 @@ runtime:
   
 compiler:
   - gcc #8.0.1
-  - clang #6.0.0
+  - clang #6.0.1
   
 build: 
   pre_ci_boot:
     image_name: drydock/u14cppall
-    image_tag: v6.5.4
+    image_tag: v6.8.4
     pull: true
     
   ci:
